@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #999;
+}
+
+a, button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 20px;
+    background-color: #003e75;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta_btn {
+    margin-left: 10px;
+    padding: 9px 20px;
+    background-color: #fff;
+    border: 1px solid #003e75;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #003e75;
+    text-decoration: none;
+}
+
+.navbar-dark {
+    background-color: #145084;
+}
+
+.navbar-toggler {
+    border: none !important;
+    margin-left: 20px;
+}
+
+
+.btn-lg {
+    background-color: #003e75 !important;
+    color: #fff !important;
+    font-size: 13px !important;
+}
+
+.navbar-nav a {
+    color: #003e75;
+    margin-left: 20px;
+}
+
+.lead{
+    font-size: 13px !important;    
+}
+
+.apply-now h4 {
+    color: #003e75;
+}
+
+.apply-now p {
+    font-size: 13px;
+}
+
+.apply-now button {
+    background-color: #0068af;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.apply-now button:hover{
+    color: #fff;
+}
+
+.price-now {
+    font-weight: 700;
+    color: #999;
+    margin-top: 20px;
+}
+
+.apply-now ul li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.apply-list {
+    margin-top: 145px !important;
+    color: #999;
+    opacity: 0.9;
+}
+
+.disclosure-imp ol li{
+    color: #424242;
+    margin: 17px !important;
+}
+
+.disclosure-imp h3 {
+    color: #424242;
+    margin-left: 35px;
+    font-size: 35px;
+}
+
+footer p {
+    font-size: 10px;
+}
+.footer-now {   
+    margin-left: 35px;
+    display: inline-flex;
+    color: #78add0;
+}
+
+.footer-app {
+    color: #999;
+    margin-left: 35px;
+}
+
+
+.vl {
+    border-left: 1px solid #999;
+    height: 13px;
+    margin: 10px  0 0 15px;
+  }
+  .vt {
+    border-left: 1px solid #999;
+    height: 10px;
+    margin: 3px  0 0 15px;
+  }
+
+.foot-txt {
+    margin-left: 25px;
+}
+
+.op-land {
+    opacity: 0.3;
+}
+
+label.plan {
+    background-color: #003e75;
+    color: #fff;
+    padding: 2px 30px 2px 30px;
+}
+
+label.more {
+    background-color: #fff;
+    border: 1px solid #003e75;
+    padding: 2px 30px 2px 30px;
+}
+
+.finan-plan {
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+.list-group-flush .btn-outline-secondary{
+    padding: 5px 80px 7px 80px;
+    border-radius: 50px;
+    margin: 15px 10px 50px 10px;
+}
+
+.list-group-flush .btn-outline {
+    background-color: #003e75;
+    color: #fff;
+    padding: 5px 80px 7px 80px;
+}
+
+.list-group-flush input {
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.price-bar {
+    display: flex;
+    font-size: 11px;
+    color: #999;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.range-one {
+    margin-left: 10px;
+}
+
+.range-two {
+    margin-left: 170px;
+}
+
+.range-one-six {
+    margin-left: 7px;
+}
+
+.range-two-frty {
+    margin-left: 160px;
+}
+
+/* .btn:hover {
+    color: #fff !important;
+} */
+
+button.btn.btn-outline {
+    color: #fff;
+}
+
+.estimate-pay {
+    display: flex;
+    font-size: 17px;
+    font-weight: 600;
+    color: #999;
+}
+
+.estimate-pay p {
+    margin: 5px 0 0 15px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-now {
+    padding: 0 30px 0 30px !important;
+    background-color: #fff;
+    color: #0068af;
+    border: 2px solid #0068af;
+    height: 65%
+}
+
+.cal-rate p {
+    color: #999 !important;
+
+}
+
+.d-flex {
+    background-color: #f8f7f8;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont button {
+    background-color: #e2e9f0;
+    color: #999;
+    
+}
+
+/* application progress css */
+
+.step-num {
+    background-color: #e2e9f0;
+    border-radius: 50px !important;
+    width: 80%;
+}
+
+.count-step {
+    background-color: #003e75;
+    border-radius: 50px;
+    padding: 3px 10px;
+    color: #fff;
+}
+
+.count-step-any {
+    background-color: #999;
+    border-radius: 50px;
+    padding: 3px 10px;
+    color: #fff;
+}
+
+/* emplo detail css */
+
+.employ-header {
+    background-color: #025c3a;
+}
+
+
+.dis-clr {
+    color: #93bcdc;
+}
+
+.frm-lst .form-control {
+    border-bottom: 1px solid #c4c5ca;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: 0 0px 0px rgb(0 0 0 / 0.2) !important;
+    border-color: #fff !important;
+}
