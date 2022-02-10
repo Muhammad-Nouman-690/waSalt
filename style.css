@@ -161,6 +161,10 @@ label.more {
     font-size: 14px;
 }
 
+li.range-hding {
+    color: #000;
+}
+
 .list-group-flush .btn-outline-secondary{
     padding: 5px 80px 7px 80px;
     border-radius: 50px;

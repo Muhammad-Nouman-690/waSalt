@@ -29,8 +29,8 @@
           </div>
           <div class="col-md-3  py-4">
             <nav class="nav_links ">
-                <a class="cta" href="#"><button>Resume Application</button></a>
-                <a class="cta_btn " href="#">Sign In <i class="far fa-arrow-right"></i></a>
+              <a class="cta" href="#"><button>Resume Application</button></a>
+              <a class="cta_btn " href="#">Sign In <i class="far fa-arrow-right"></i></a>
             </nav>
           </div>
         </div>
@@ -91,15 +91,18 @@
         <div class="col-md-4">
           <div class="card" style="width: 20rem;">
             <ul class="list-group list-group-flush text-center">
-              <li class="list-group-item">Finance Amount(Maximum 80%) <span>SAR 1,720,000.00</span></li>
-              <input type="range" min="1" max="100" value="50">
+              <li class="range-hding">Finance Amount(Maximum 80%)</li>
+              <output class="list-group-item">1,720,000</output>
+              <input type="range" min="25000" max="200000" oninput="this.previousElementSibling.value = this.value">
+
               <div class="price-bar">
                 <p class="range-one">SAR 25000</p>
                 <p class="range-two">SAR 2M</p>
               </div>
 
-              <li class="list-group-item">Finance Term (Months) <br> <span>180 Months</span> </li>
-              <input type="range" min="1" max="100" value="50">
+              <li class="range-hding">Finance Term (Months)</li>
+              <output class="list-group-item">180</output>
+              <input type="range" min="6" max="240" oninput="this.previousElementSibling.value = this.value">
               <div class="price-bar">
                 <p class="range-one-six">6 Months</p>
                 <p class="range-two-frty">240 Months</p>
@@ -131,7 +134,7 @@
                 Monthly Payment <i class="fa fa-info-circle fa-1x"></i>
                 <h4>SAR 15,402.00</h4>
               </div>
-            <a href="origination.html"> <button type="button" class="app-now">Apply Now</button> </a>
+              <a href="origination.html"> <button type="button" class="app-now">Apply Now</button> </a>
             </div>
             <hr style="width:95%;text-align:left;margin-left:20px">
 
