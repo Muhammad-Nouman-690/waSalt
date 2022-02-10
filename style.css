@@ -94,7 +94,7 @@ button {
 }
 
 .apply-list {
-    margin-top: 145px !important;
+    /* margin-top: 145px !important; */
     color: #999;
     opacity: 0.9;
 }
@@ -308,8 +308,13 @@ button.btn.btn-outline {
           }   
           .navbar .navbar-nav {
               display: flex;
-            flex-direction: row;
-            
-        }
-        
+            flex-direction: row;   
+        }  
     }
+
+    @media only screen and (min-width: 769px)  {
+    .apply-list {
+        margin-top: 145px !important;
+     
+    }
+}
