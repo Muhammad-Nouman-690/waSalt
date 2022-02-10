@@ -29,6 +29,7 @@
         color: #999;
         margin-left: 35px;
     }
+
     .footer ul {
         margin-bottom: 131px;
     }
@@ -45,13 +46,81 @@
 
     /*edit css*/
     footer {
-    background-color: #f7f7f7;
-}
-.card.use-card {
-    margin-bottom: 40px;
-}
-   
+        background-color: #f7f7f7;
+    }
 
+    .card.use-card {
+        margin-bottom: 40px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width:426px) {
+
+        .orig-nav {
+
+            width: 639px;
+        }
+
+        /* .u-iconz {
+   
+    left: 215px;
+}
+.linez {
+    margin-left: 223px;
+}
+.u-iconz1 {
+   
+    left: 215px;
+} */
+
+        .user {
+
+            position: relative;
+            right: 165px;
+        }
+
+        .u-iconz {
+
+            left: 218px;
+
+        }
+
+        .linez {
+            position: absolute;
+            bottom: 20px;
+            left: 225px;
+        }
+
+        .u-iconz1 {
+
+            left: 55px;
+
+        }
+
+        .users {
+
+            position: absolute;
+            bottom: 0px;
+            right: 40px;
+        }
+
+        .setting {
+
+            width: 638px;
+        }
+
+        footer {
+
+            width: 638px;
+        }
+
+        .card.use-card {
+            width: 37rem !important;
+        }
+
+        .carduse-list {
+            margin-left: 22px;
+        }
+    }
 </style>
 
 <body>
@@ -117,22 +186,24 @@
                                                     Let's get started! open your account in<span> just 5 minutes</span>
 
                                                 </p>
-                                                <a href="personalInfo.html"><button type="button"  id="btnSubmit">start new application</button> </a>
+                                                <a href="personalInfo.html"><button type="button" id="btnSubmit">start
+                                                        new application</button> </a>
                                             </div>
                                         </div>
                                         <div class="col-sm-1 col-md-1 col-xl-1 col-lg-1 col-12">
-                                            <div class="u-line">
+                                            <div class="linez">
+                                                <div class="u-line">
 
 
+                                                </div>
+                                                <div class="or">
+                                                    <p>or</p>
+                                                </div>
+                                                <div class="u-line1">
+
+
+                                                </div>
                                             </div>
-                                            <div class="or">
-                                                <p>or</p>
-                                            </div>
-                                            <div class="u-line1">
-
-
-                                            </div>
-
 
 
                                         </div>
@@ -160,101 +231,105 @@
                                 </div>
 
                                 <div class="card-btn">
-                                  <a href="applyNow.html"><button>back</button></a>
+                                    <a href="applyNow.html"><button>back</button></a>
                                 </div>
 
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-5 col-md-5 col-xl-5 col-lg-5 col-12 offset-lg-1 p-0">
-                        <div class="card use-card" style="width: 20rem;">
-                            <div class="option">
-                                <p>
-                                    Usefull information:
-                                </p>
+                        <div class="carduse-list">
+                            <div class="card use-card" style="width: 20rem;">
+                                <div class="option">
+                                    <p>
+                                        Usefull information:
+                                    </p>
+                                </div>
+
+                                <div class="op-info">
+                                    <p> Things to you before you apply</p>
+                                    <ul>
+                                        <li>
+                                            <div class="p-icon">
+                                                <i class="fas fa-circle"></i>
+                                            </div>
+                                            <div class="p-info">
+                                                <p> You should be at least 18 years old </p>
+                                            </div>
+
+                                        </li>
+                                        <li>
+                                            <div class="p-icon">
+                                                <i class="fas fa-circle"></i>
+                                            </div>
+                                            <div class="p-info">
+                                                <p>Should be a Permanent Citizen of your country </p>
+                                            </div>
+
+                                        </li>
+                                        <li>
+                                            <div class="p-icon">
+                                                <i class="fas fa-circle"></i>
+                                            </div>
+                                            <div class="p-info">
+                                                <p>You should not have history of bad credit, e.g. undischarges
+                                                    bankruptcy
+                                                </p>
+                                            </div>
+
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                                <div class="op-info1">
+                                    <p> Things to be kept handy</p>
+                                    <ul>
+                                        <li>
+                                            <div class="p-icon">
+                                                <i class="fas fa-circle"></i>
+                                            </div>
+                                            <div class="p-info">
+                                                <p>Income/Financial Statements of the last three months</p>
+                                            </div>
+
+                                        </li>
+                                        <li>
+                                            <div class="p-icon">
+                                                <i class="fas fa-circle"></i>
+                                            </div>
+                                            <div class="p-info">
+                                                <p>State-issued identification, driver's, license,or passport of each
+                                                    party
+                                                </p>
+                                            </div>
+
+                                        </li>
+                                        <li>
+                                            <div class="p-icon">
+                                                <i class="fas fa-circle"></i>
+                                            </div>
+                                            <div class="p-info">
+                                                <p>Tax Identification Number of each party</p>
+                                            </div>
+
+                                        </li>
+                                        <li>
+                                            <div class="p-icon">
+                                                <i class="fas fa-circle"></i>
+                                            </div>
+                                            <div class="p-info">
+                                                <p>Mobile phone that is able to recieve text messages.</p>
+                                            </div>
+
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+
                             </div>
-
-                            <div class="op-info">
-                                <p> Things to you before you apply</p>
-                                <ul>
-                                    <li>
-                                        <div class="p-icon">
-                                            <i class="fas fa-circle"></i>
-                                        </div>
-                                        <div class="p-info">
-                                            <p> You should be at least 18 years old </p>
-                                        </div>
-
-                                    </li>
-                                    <li>
-                                        <div class="p-icon">
-                                            <i class="fas fa-circle"></i>
-                                        </div>
-                                        <div class="p-info">
-                                            <p>Should be a Permanent Citizen of your country </p>
-                                        </div>
-
-                                    </li>
-                                    <li>
-                                        <div class="p-icon">
-                                            <i class="fas fa-circle"></i>
-                                        </div>
-                                        <div class="p-info">
-                                            <p>You should not have history of bad credit, e.g. undischarges bankruptcy
-                                            </p>
-                                        </div>
-
-                                    </li>
-
-                                </ul>
-
-                            </div>
-                            <div class="op-info1">
-                                <p> Things to be kept handy</p>
-                                <ul>
-                                    <li>
-                                        <div class="p-icon">
-                                            <i class="fas fa-circle"></i>
-                                        </div>
-                                        <div class="p-info">
-                                            <p>Income/Financial Statements of the last three months</p>
-                                        </div>
-
-                                    </li>
-                                    <li>
-                                        <div class="p-icon">
-                                            <i class="fas fa-circle"></i>
-                                        </div>
-                                        <div class="p-info">
-                                            <p>State-issued identification, driver's, license,or passport of each party
-                                            </p>
-                                        </div>
-
-                                    </li>
-                                    <li>
-                                        <div class="p-icon">
-                                            <i class="fas fa-circle"></i>
-                                        </div>
-                                        <div class="p-info">
-                                            <p>Tax Identification Number of each party</p>
-                                        </div>
-
-                                    </li>
-                                    <li>
-                                        <div class="p-icon">
-                                            <i class="fas fa-circle"></i>
-                                        </div>
-                                        <div class="p-info">
-                                            <p>Mobile phone that is able to recieve text messages.</p>
-                                        </div>
-
-                                    </li>
-
-                                </ul>
-
-                            </div>
-
-
                         </div>
                     </div>
                 </div>
@@ -297,21 +372,22 @@
         </div>
     </footer>
 
-<!-- JQuery Code -->
+    <!-- JQuery Code -->
 
-<script>
-    $("#btnSubmit").attr("disabled", true);
-    $("button").addClass("dis-btn")
-    
-    $( ".check" ).click(function() {
-    
-    $("#btnSubmit").attr("disabled", false);
-    $("button").removeClass("dis-btn")
-    $("button").addClass("enb-btn")    
-});
+    <script>
+        $("#btnSubmit").attr("disabled", true);
+        $("button").addClass("dis-btn")
+
+        $(".check").click(function () {
+
+            $("#btnSubmit").attr("disabled", false);
+            $("button").removeClass("dis-btn")
+            $("button").addClass("enb-btn")
+        });
 
 
-</script>
+    </script>
 
 </body>
+
 </html>
