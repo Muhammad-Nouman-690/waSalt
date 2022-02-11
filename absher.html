@@ -5,6 +5,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="asstes/css/bootstrap.min.css" />
       <link rel="stylesheet" href="asstes/css/stylesheet.css" />
+
+      <link rel="stylesheet" href="asstes/css/responsive.css" />
       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
       <script src="asstes/js/jquery-3.6.0.min.js"></script>
       <script src="asstes/js/bootstrap.min.js"></script>
@@ -12,6 +14,9 @@
    </head>
 
    <style>
+       body {
+  overflow-x: hidden;
+}
     footer p {
     font-size: 10px;
 }
@@ -73,6 +78,45 @@ p.card-text {
 section.c-color {
     background-color: #f7f7f7;
 }
+
+
+
+
+@media  screen and (min-width: 320px) and (max-width:426px){
+    .orig-nav {
+    width: 671px;
+}
+
+.c-absher .card {
+    width: 38rem !important;
+}
+.ab {
+
+margin-bottom: 35px;
+}
+.abs-btn ul li {
+font-size: 9px;
+}
+section.c-color {
+   
+    width: 42rem;
+}
+.prog {
+    margin-top: 30px;
+    }
+.footer-now p {
+    font-size: 15px ;
+    }
+ 
+
+footer {
+   
+    width: 42rem;
+}
+}
+
+
+
 </style>
 
 
@@ -108,7 +152,9 @@ section.c-color {
             <div class="container">
                
                 <div class="row">
+
                     <div class="col-md-6">
+                        <div class="c-absher">
                         <div class="card" style="width: 40rem;">
                             <div class="option">
                                 <p>
@@ -140,9 +186,11 @@ section.c-color {
 
                             </div>
                         </div>
+                        </div>
                     </div>
                    <!-- Application Progress Section -->
                 <div class="col-md-5 px-5 offset-lg-1">
+                    <div class="prog">
                     <h6>Application: In progress</h6>
                     <p>Application Started On: 2022-01-04</p>
                     <div class="alert step-num" role="alert">
@@ -157,6 +205,7 @@ section.c-color {
                        <div class="alert " role="alert">
                         <span class="count-step-any">4</span> Summary
                        </div>
+                </div>
                 </div>
 
                 </div>
