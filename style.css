@@ -328,4 +328,122 @@ button.btn.btn-outline {
    
 }
 
+/* Origination Css */
 
+.btn-orig {
+    background-color: #145084;
+    
+}
+
+.btn-orig h6 {
+    color: #f8f7f8;
+}
+
+.user {
+    text-align: center;
+  }
+  .user p span {
+    display: block;
+  }
+  
+  .user p {
+    font-size: 10px;
+    font-weight: 100;
+    padding: 5px 0 8px 0;
+  }
+  .user h3 {
+    font-size: 13px;
+    font-weight: 200;
+    color: #000;
+    line-height: 22px;
+  }
+
+  .u-iconz {
+    position: relative;
+    left: 125px;
+    top: 10px;
+  }
+
+  .u-icon i {
+    padding: 7px;
+    font-size: 30px;
+    color: #0e4a7f;
+    font-weight: 100;
+  }
+  
+  .u-icon {
+    border-radius: 50%;
+    border: 2px solid #0e4a7f;
+    width: 45px;
+    height: 45px;
+  }
+
+  .plus-icon i {
+    padding: 0px;
+    font-size: 20px;
+    color: #0e4a7f;
+    font-weight: 100;
+  }
+  
+  .plus-icon {
+    border-radius: 50%;
+    border: 2px solid #0e4a7f;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 55px;
+    left: 37px;
+  } 
+
+  .u-line {
+    border-left: 1px solid #999;
+    height: 46px;
+    margin: 18px 0 0px 15px;
+  }
+  .or p {
+    font-size: 12px;
+    padding: 0px 4px;
+    color: #c8c4c4;
+  }
+  .or {
+    border: 1px solid #c8c4c4;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    left: 5px;
+    bottom: 0px;
+  }
+  .u-line1 {
+    border-left: 1px solid #999;
+    height: 46px;
+    margin: 18px 0 0px 15px;
+    position: relative;
+    bottom: 19px;
+  }
+  
+  
+  .users {
+    text-align: center;
+  }
+  .users p span {
+    display: block;
+  }
+  
+  .users p {
+    font-size: 10px;
+    font-weight: 100;
+    padding: 5px 0 8px 0;
+  }
+  .users h3 {
+    font-size: 13px;
+    font-weight: 200;
+    color: #000;
+    line-height: 22px;
+  }
+    
+  .btn-bk {
+      color: #003e75 !important;
+      border: 1px solid #003e75 !important;
+      padding: 5px 30px 5px 30px !important;
+  }
