@@ -330,6 +330,27 @@ button.btn.btn-outline {
 
 /* Origination Css */
 
+.orig-nav{
+    background-color: #0e4a7f;
+    padding:5px;
+   
+  }
+ 
+.orig-nav1 a:hover {
+  border-bottom: 4px solid #fff;
+  padding:10px;
+  color: #fff;
+  
+}
+
+.orig-nav1 a {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 12px;
+    padding: 7px;
+    text-decoration: none;
+  }
+
 .btn-orig {
     background-color: #145084;
     
