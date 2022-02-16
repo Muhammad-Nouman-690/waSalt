@@ -325,6 +325,9 @@ button.btn.btn-outline {
         .line-dis {
             visibility: hidden;
         }
+        .rng-crd {
+            padding-left: 65px !important;
+        }
     }
 
     @media only screen and (min-width: 769px)  {
