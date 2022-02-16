@@ -512,10 +512,17 @@ button.btn.btn-outline {
     margin-bottom: 100px;
 }
 
+.btn-absher button:hover {
+    color: #fff;
+}
+
 .con button {
     background-color: #6e91b1;
     color: #d1dcee;
-    
+}
+
+.con button:hover {
+    color: #d1dcee;
 }
 
 .con {
