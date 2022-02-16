@@ -618,27 +618,6 @@ body {
   color: #000;
   line-height: 22px;
 }
-.enb-btn {
-  background-color: #0e4a7f;
-  border: none;
-  color: #fff;
-  text-transform: capitalize;
-  font-size: 11px;
-  height: 35px;
-  width: 132px;
-  cursor: pointer;
-}
-
-.dis-btn {
-  background-color: #e2e9f0;
-  border: none;
-  color: #000;
-  text-transform: capitalize;
-  font-size: 11px;
-  height: 35px;
-  width: 132px;
-  cursor: pointer;
-}
 
 .u-icon i {
   padding: 7px;

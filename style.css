@@ -319,6 +319,12 @@ button.btn.btn-outline {
               display: flex;
             flex-direction: row;   
         }  
+        .u-iconz {
+            margin-left: 170px !important;
+        }
+        .line-dis {
+            visibility: hidden;
+        }
     }
 
     @media only screen and (min-width: 769px)  {
@@ -329,6 +335,32 @@ button.btn.btn-outline {
 }
 
 /* Origination Css */
+
+.app-info {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.enb-btn {
+    background-color: #0e4a7f;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 11px;
+    height: 35px;
+    cursor: pointer;
+  }
+  
+  .dis-btn {
+    background-color: #e2e9f0;
+    border: none;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 11px;
+    height: 35px;
+    cursor: pointer;
+  }
+  
 
 .orig-nav{
     background-color: #0e4a7f;
@@ -381,7 +413,7 @@ button.btn.btn-outline {
 
   .u-iconz {
     position: relative;
-    left: 125px;
+    margin-left: 125px;
     top: 10px;
   }
 
